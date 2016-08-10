@@ -5,11 +5,16 @@ Brings backspace navigation back to chrome.
 This extension is built within an hour by non-chrome expert. Install and use it only if you know what you are doing (or other experts tell you it's safe).
 
 # How to install
-1. Download `MakeBackspaceGreatAgain.crx` file.
+1. Download [MakeBackspaceGreatAgain.crx](https://github.com/cjeon/MakeBackspaceGreatAgain/raw/master/MakeBackspaceGreatAgain.crx) file.
 2. Go to `chrome://extensions/`. 
 3. Drop `MakeBackspaceGreatAgain.crx` into `chrome://extensions/` page.
-4. Reload page, check it works. 
+4. Reload page, check if backspace works. 
 5. (optional) right-click the globe next to address bar (which is this extension's icon) and click `hide in chrome menu`. 
+
+# How to remove
+1. Go to `chrome://extensions/`. 
+2. Find `Make Backspace Great Again`
+3. Click trash bin.
 
 # How it works
 It injects simple js code into every js file you load. The code is in `backspace.js` and is as follows:
