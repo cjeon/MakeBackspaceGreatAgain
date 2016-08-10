@@ -1,6 +1,6 @@
 document.onkeydown = checkKey;
-var val_of_this;
-var is_changing = false;
+var activeElemId;
+var isChanging = false;
 
 var mutationObserver = new MutationObserver(
   function () {console.log("changed!");}
@@ -25,8 +25,6 @@ function checkKey(e) {
         //window.history.back();
       }
     } else {
-      console.log(document.activeElement);
-      val_of_this = document.activeElement.innerHtml;
-      console.log(val_of_this);
+      var uniqRandomId = Math.random().toString();
     }
 }
