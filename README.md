@@ -2,7 +2,7 @@
 Brings backspace navigation back to chrome.
 
 #important
-This extension is built within an hour by non-chrome expert. Install and use it only if you know what you are doing (or other experts tell you it's safe).
+This extension is built within an hour by non-chrome expert(I just needed my backspace back). Install and use it only if you know what you are doing (or other experts tell you it's safe, because I cannot guarantee you that this is safe).
 
 # How to install
 1. Download [MakeBackspaceGreatAgain.crx](https://github.com/cjeon/MakeBackspaceGreatAgain/raw/master/MakeBackspaceGreatAgain.crx) file.
